@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/* GLOBAL STYLES */
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  background: #f9fafb;
+}
+
+/* HEADER & FOOTER */
+.header,
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  box-sizing: border-box;
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.footer {
+  justify-content: center;
+  padding: 20px 20px;
+}
+
+.left-header,
+.right-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 20px;
+}
+
+.h-secondary {
+  color: #b9bbbe;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+/* MAIN CONTENT */
+.content {
+  display: block;
+}
+
+/* --- SECTION 1: HERO --- */
+.section-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 60px 60px;
+  min-height: 200px;
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.hero-left {
+  flex: 0 1 400px;
+  min-width: 350px;
+}
+
+.hero-right {
+  flex: 0 1 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  display: flex;
+  align-items: center; /* vertical centering */
+  justify-content: center; /* horizontal centering */
+  width: 400px;
+  height: 180px;
+  background: #6c757d;
+  color: #ccc;
+  font-size: 1.2rem;
+}
+
+/* --- SECTION 2: INFO CARDS --- */
+.section-2 {
+  padding: 60px 120px;
+  min-height: 200px;
+  gap: 40px;
+}
+
+.info-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin: 50px 0;
+}
+
+.info-group {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* --- SECTION 3: QUOTE --- */
+.section-3 {
+  padding: 60px 120px;
+  min-height: 200px;
+  gap: 40px;
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.quote-block {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  /* centers the block horizontally */
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  color: #2e3b4d;
+}
+
+.author {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+}
+
+/* --- SECTION 4: CALL TO ACTION --- */
+.section-4 {
+  padding: 60px 120px;
+  min-height: 150px;
+  gap: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.modal {
+  background: #3882f6;
+  width: 1000px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px;
+}
+
+.call-left {
+  min-width: 200px;
+  text-align: left;
+}
+
+.call-right {
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+/* BUTTON STYLES */
+.continue {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  padding: 8px 28px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #3882f6;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* OTHER STYLES */
+.header {
+  color: #ddd;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  max-width: 100%;
+  border: 4px solid #3882f6;
+  border-radius: 8px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #b9bbbe;
+  font-size: 18px;
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+}
